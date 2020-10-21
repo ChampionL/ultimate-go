@@ -77,6 +77,8 @@ func main() {
 	// memory.
 
 	// Specify type and perform a conversion.
+	// Wikipedia claims that they are synonyms: "In computer science, type conversion, typecasting, and coercion are different ways of, implicitly or explicitly, changing an entity of one data type into another. "
+	// type conversion 和 typecasting 分别显示隐式转换&显示转换
 	aaa := int32(10)
 
 	fmt.Printf("aaa := int32(10) %T [%v]\n", aaa, aaa)
